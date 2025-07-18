@@ -5,6 +5,7 @@ idf_component_register(
     SRCS
         ${SOURCES}
         ${EMOJI_SOURCES}
+        src/gb2zhtw.cc
     INCLUDE_DIRS
         "include"
     PRIV_REQUIRES
